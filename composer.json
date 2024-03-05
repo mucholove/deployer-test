@@ -1,0 +1,42 @@
+{   
+    "name": "mucholove/deployer-test",
+    "description": "Todas sus necesidades en linea.",
+    "type": "project",
+    "license": "Private",
+    "authors": [
+        {
+            "name": "Gustavo Tavares",
+            "email": "mucholove@fastmail.com"         
+        }
+    ],
+    "minimum-stability": "stable",
+    "repoInfo": "https://getcomposer.org/doc/05-repositories.md",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../deployer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mucholove/gtk-data-access"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mucholove/gtk-helpers"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/stonewood-rd/stonewood-lib"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "mucholove/deployer": "dev-main"
+    },
+    "autoload": {
+        "files": [
+        ],
+        "classmap": [
+        ]
+    }
+}
