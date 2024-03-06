@@ -13,8 +13,8 @@
     "repoInfo": "https://getcomposer.org/doc/05-repositories.md",
     "repositories": [
         {
-            "type": "path",
-            "url": "../deployer"
+            "type": "vcs",
+            "url": "https://github.com/mucholove/deployer"
         },
         {
             "type": "vcs",
